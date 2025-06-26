@@ -18,12 +18,6 @@ Este proyecto implementa un **chatbot conversacional inteligente** basado en el 
 - Axios (para peticiones al backend)
 - TailwindCSS (opcional para estilos)
 
----
-
-## 📦 Estructura del Proyecto
-
-
----
 
 ## 🚀 Instrucciones de Instalación y Ejecución
 
@@ -34,16 +28,16 @@ git clone https://github.com/tu-usuario/langchain-qwen-chatbot.git
 cd langchain-qwen-chatbot
 
 🔧 Backend – FastAPI + LangChain
- 2. Ir al directorio del backend
+### 🔹2. Ir al directorio del backend
 cd backend
 
- 3. Crear entorno virtual (opcional pero recomendado)
+### 🔹3. Crear entorno virtual (opcional pero recomendado)
 
 python -m venv venv
 source venv/bin/activate  # en Linux/macOS
 venv\\Scripts\\activate    # en Windows
 
-4. Instalar dependencias
+### 🔹4. Instalar dependencias
 pip install -r requirements.txt
 
 Si no tienes requirements.txt, instala manualmente:
@@ -51,13 +45,13 @@ Si no tienes requirements.txt, instala manualmente:
 pip install fastapi uvicorn langchain transformers accelerate torch
 
 
-Ejecutar el servidor FastAPI
+### 🔹5 Ejecutar el servidor FastAPI
 uvicorn main:app --reload
 
-Frontend – ReactJS
-Ir al directorio del frontend
+### 🔹Frontend – ReactJS
+### 🔹Ir al directorio del frontend
 cd ../frontend
-Instalar dependencias
+### 🔹Instalar dependencias
 npm install
-Ejecutar la app React
+### 🔹Ejecutar la app React
 npm run dev
