@@ -23,12 +23,15 @@ Este proyecto implementa un **chatbot conversacional inteligente** basado en el 
 
 ### 🔹 1. Clonar el Repositorio
 
-```bash
+
 git clone https://github.com/tu-usuario/langchain-qwen-chatbot.git
 cd langchain-qwen-chatbot
 
+
 🔧 Backend – FastAPI + LangChain
 ### 🔹2. Ir al directorio del backend
+
+
 cd backend
 
 ### 🔹3. Crear entorno virtual (opcional pero recomendado)
